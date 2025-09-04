@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@500&display=swap');
+
+:root {
+    --primary: #003366;
+    --accent: #ffd700;
+    --light-bg: #f8f8f8;
+    --dark-bg: #333;
+    --card-radius: 0.5rem;
+    --shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #111;
+}
+
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+header {
+    background-color: var(--primary);
+    padding: 1rem 0;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    display: block;
+}
+
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    background-color: var(--dark-bg);
+    margin: 0;
+    padding: 1rem 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: var(--accent);
+}
+
+
+main {
+    max-width: 960px;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: var(--card-radius);
+    padding: 1.5rem;
+    box-shadow: var(--shadow);
+}
+
+.card h2 {
+    text-align: center;
+    margin-top: 0;
+    background-color: var(--primary);
+    color: white;
+    padding: 0.5rem;
+    border-radius: var(--card-radius) var(--card-radius) 0 0;
+}
+
+
+
+footer {
+    background-color: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+    font-size: 0.9rem;
+}
+
+footer span {
+    color: var(--accent);
+}
