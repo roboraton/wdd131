@@ -35,7 +35,7 @@ header {
 h1 {
     margin: 0;
     font-size: 1.5rem;
-    display: relative;
+    display: grid;
     grid-template-rows: auto 1fr;
     align-items: center;
     
@@ -58,9 +58,6 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
-    hoover {
-        color: var(--accent);
-    }
 }
 
 nav ul li a:hover {
@@ -102,13 +99,6 @@ section {
     border-radius: var(--card-radius) var(--card-radius) 0 0;
 }
 
-.bio {
-    font-style: italic;
-    text-align: left;
-    display: flex;
-    align-items: flex-start;
-    color: #555;
-}
 
 img {
     max-width: 100px;
