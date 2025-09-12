@@ -1,7 +1,6 @@
 
 .roboto-l {
   font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
   font-variation-settings:
@@ -20,7 +19,7 @@
         border: 10px;
         border-radius: 15%;
         border-style: dashed;
-        padding: auto;
+        padding: 20px;
         background-color: rgb(55, 55, 111);
     }
 
