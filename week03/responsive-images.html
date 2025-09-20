@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Images</title>
+    <meta name="description" content="Exercise about responsive images for WDD 131">
+    <meta name="author" content="Hector Gomez">
+    <meta name="keywords" content="BYU, responsive images, WDD 131, web development, responsive design">
+    <link rel="stylesheet" href="styles/responsive-images.css">
+    <link rel="stylesheet" href="styles/temples-large.css" media="screen and (min-width: 800px)">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="hero">
+        <picture>
+        <source srcset="images/hero-large.webp" alt="Banner image of Alberta Temple landscape" min width="1000px">
+        <source srcset="images/hero-medium.webp" alt="Banner image of Alberta Temple landscape" min width="500px">
+        <img src="images/hero-small.webp" alt="Banner image of Alberta Temple landscape" width="500" height="250">
+        </picture>
+    </div>
+</body>
+</html>

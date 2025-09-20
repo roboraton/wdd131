@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Places</title>
+    <meta name="description" content="Places site with responsive content for WDD 131">
+    <meta name="author" content="Hector Gomez">
+    <meta name="keywords" content="BYU, responsive content, WDD 131, web development, responsive design">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Mexico</h1>
+    </header>
+    <main class="grid-container">
+        <div class="hero">
+        <picture>
+        <source srcset="images/hero-mexico.webp" alt="Hero image of Mexico's Palacio de Bellas Artes" media="(min-width: 1000px)">
+        <img src="images/hero-mexico.webp" alt="Hero image of Mexico's Palacio de Bellas Artes" width="500" height="250">
+        </picture>
+    </div>
+    <div class="data">
+        <h2>Data</h2>
+        <ul>
+            <li><strong>Area:</strong> Mexico</li>
+            <li><strong>Population:</strong> 126 million</li>
+            <li><strong>Capital:</strong> Mexico City</li>
+            <li><strong>Language:</strong> Spanish</li>
+            <li><strong>Currency:</strong> Mexican Peso (MXN)</li>
+            <li><strong>Time Zone:</strong> Central Standard Time (CST)</li>
+            <li><strong>Calling Code:</strong> +52</li>
+            <li><strong>Internet TLD:</strong> .mx</li>
+        </ul>
+    </div>
+    <div class="weather">
+        <h2>Weather</h2>
+        <ul>
+            <li><strong>Temperature:</strong> 25°C</li>
+            <li><strong>Condition:</strong> Sunny</li>
+            <li><strong>Humidity:</strong> 60%</li>
+            <li><strong>Wind Speed:</strong> 15 km/h</li>
+            <li><strong>Wind Chill:</strong> <span id="windchill"></span></li>
+        </ul>
+    </div>
+
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> 🎮 Hector Gomez 🎮 Mexico</p>
+        <p>Last Modification: <span id="lastmodified"></span></p>
+
+    </footer>
+    
+</body>
+</html>
