@@ -87,10 +87,8 @@ h1 {
     right: 1rem;
 }
 
-.data ul,
-.weather ul {
-    list-style: none;
-    padding-left: 0;
+.weather-info p {
+  margin-bottom: 0.5rem;
 }
 
 .data h2,
