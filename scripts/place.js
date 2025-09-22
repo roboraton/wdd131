@@ -8,7 +8,7 @@ lastModified.textContent = document.lastModified;
 function calculateWindChill(tempC, speed) {
     if (tempC <= 10 && speed > 4.8) {
         return Math.round(
-            13.12 + (0.6215 * tempC) - (35.75 * Math.pow(speed, 0.16)) + (0.4275 * tempC * Math.pow(speed, 0.16))
+            13.12 + (0.6215 * tempC) - (11.37 * Math.pow(speed, 0.16)) + (0.3965 * tempC * Math.pow(speed, 0.16))
         );
     } else {
         return "N/A";
