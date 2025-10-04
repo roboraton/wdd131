@@ -78,7 +78,7 @@ const temples = [
     dedicated: "2023, October, 8",
     area: 27897,
     imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mcallen-texas/400x250/mcallen-temple-exterior.jpg"
+      "images/mcallen-temple.jpg"
   },
   {
     templeName: "Calgary Alberta",
@@ -86,7 +86,7 @@ const temples = [
     dedicated: "2012, October, 28",
     area: 33000,
     imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/calgary-alberta/400x250/calgary-alberta-temple-exterior.jpg"
+      "images/calgary-temple.jpg"
   },
   {
     templeName: "Tampico Mexico",
@@ -94,7 +94,7 @@ const temples = [
     dedicated: "2000, May, 20",
     area: 10700,
     imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/tampico-mexico/400x250/tampico-temple-exterior.jpg"
+      "images/tampico-temple.jpg"
   }
 ];
 
