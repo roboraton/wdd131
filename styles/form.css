@@ -184,3 +184,7 @@ footer span {
     font-size: 1.3rem;
   }
 }
+
+.submit-btn::after{
+  content: "Post Review"
+}
