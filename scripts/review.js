@@ -21,3 +21,4 @@ if (localStorage.getItem("formSubmitted") === "true") {
 
 // Display the current count
 reviewCountEl.textContent = count;
+
