@@ -1,5 +1,5 @@
 /* -------------------- */
-/* 🌐 Reset & Base */
+/* Reset & Base */
 /* -------------------- */
 * {
   margin: 0;
@@ -25,7 +25,7 @@ body {
 }
 
 /* -------------------- */
-/* 🧭 Header */
+/* Header */
 /* -------------------- */
 .site-header {
   background: #fff;
@@ -67,7 +67,7 @@ body {
 }
 
 /* -------------------- */
-/* 📱 Hero (background dinámico) */
+/* Hero (background dinámico) */
 /* -------------------- */
 .hero {
   background: url('../images/hero-img.jpg') center/cover no-repeat;
@@ -129,7 +129,7 @@ body {
 }
 
 /* -------------------- */
-/* 🧠 About con fondo flotante */
+/* About con fondo flotante */
 /* -------------------- */
 .about {
   position: relative;
@@ -186,7 +186,7 @@ body {
 }
 
 /* -------------------- */
-/* 🛠️ Services - Carousel */
+/*  Services - Carousel */
 /* -------------------- */
 .services {
   padding: 5rem 0;
@@ -306,7 +306,7 @@ body {
 
 
 /* -------------------- */
-/* 📬 Contact */
+/*  Contact */
 /* -------------------- */
 .contact {
   padding: 4rem 0;
@@ -341,7 +341,7 @@ body {
 }
 
 /* -------------------- */
-/* ⚙️ Footer */
+/*  Footer */
 /* -------------------- */
 .site-footer {
   background: #0d0648;
@@ -372,7 +372,7 @@ body {
 }
 
 /* -------------------- */
-/* 📱 Responsive */
+/*  Responsive */
 /* -------------------- */
 .hamburger {
   display: none;
@@ -434,7 +434,7 @@ body {
 }
 
 /* -------------------- */
-/* ⭐ References Page */
+/*  References Page */
 /* -------------------- */
 
 
@@ -475,7 +475,7 @@ body {
   opacity: 0.9;
 }
 
-/* 📁 Grid de referencias */
+/*  Grid de referencias */
 .references {
   padding: 5rem 0;
   background: #f9f9f9;
@@ -521,7 +521,7 @@ body {
   line-height: 1.5;
 }
 
-/* 📱 Responsive */
+/*  Responsive */
 @media (max-width: 768px) {
   .references-hero {
     padding: 4rem 1rem;
@@ -541,7 +541,7 @@ body {
 }
 
 /* -------------------- */
-/* 👤 About Page */
+/*  About Page */
 /* -------------------- */
 
 /* Hero específico para About */
@@ -581,7 +581,7 @@ body {
   opacity: 0.9;
 }
 
-/* ✨ Sección About con tarjetas */
+/* Sección About con tarjetas */
 .about-content {
   padding: 5rem 0;
   background: linear-gradient(180deg, #f9f9f9 0%, #ffffff 100%);
@@ -603,7 +603,7 @@ body {
   color: #555;
 }
 
-/* 🧩 Tarjetas */
+/* Tarjetas */
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -686,7 +686,7 @@ body {
 }
 
 /* -------------------- */
-/* 🧰 Services Page */
+/* Services Page */
 /* -------------------- */
 
 /* Hero de servicios */
@@ -728,7 +728,7 @@ body {
   margin: 0 auto;
 }
 
-/* 🧩 Cards principales */
+/* Cards principales */
 .services-page {
   padding: 5rem 0;
   background: linear-gradient(180deg, #f9f9f9 0%, #ffffff 100%);
@@ -780,7 +780,7 @@ body {
   padding: 0 1.2rem 1.5rem;
 }
 
-/* 📦 CTA */
+/* CTA */
 .services-cta {
   text-align: center;
   margin-top: 4rem;
@@ -791,7 +791,7 @@ body {
   padding: 0.8rem 2rem;
 }
 
-/* 📱 Responsive */
+/* Responsive */
 @media (max-width: 768px) {
   .services-hero {
     padding: 4rem 1rem;
@@ -815,7 +815,7 @@ body {
 }
 
 /* -------------------- */
-/* 📚 References Page */
+/* References Page */
 /* -------------------- */
 
 /* Hero */
@@ -857,7 +857,7 @@ body {
   margin: 0 auto;
 }
 
-/* 🧪 Cards */
+/* Cards */
 .references {
   padding: 5rem 0;
   background: linear-gradient(180deg, #f9f9f9 0%, #ffffff 100%);
@@ -909,7 +909,7 @@ body {
   padding: 0 1.2rem 1.5rem;
 }
 
-/* 🪪 Cliente + proyecto */
+/* Cliente + proyecto */
 .reference-meta {
   font-size: 0.9rem;
   color: #777;
@@ -928,7 +928,7 @@ body {
   text-decoration: underline;
 }
 
-/* 📦 CTA */
+/* CTA */
 .references-cta {
   text-align: center;
   margin-top: 4rem;
@@ -963,7 +963,7 @@ body {
 }
 
 /* -------------------- */
-/* 🧰 Services Detail Page */
+/* Services Detail Page */
 /* -------------------- */
 
 .services-detailed {

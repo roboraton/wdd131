@@ -1,10 +1,10 @@
-// 📅 Año actual y última modificación
+// Año actual y última modificación
 const year = document.getElementById("currentyear");
 const lastModified = document.getElementById("lastmodified");
 if (year) year.textContent = new Date().getFullYear();
 if (lastModified) lastModified.textContent = document.lastModified;
 
-// 🍔 Menú hamburguesa
+// Menú hamburguesa
 const hamburger = document.getElementById("hamburger");
 const navList = document.querySelector(".nav__list");
 if (hamburger && navList) {
@@ -13,7 +13,7 @@ if (hamburger && navList) {
   });
 }
 
-// ✨ Animación para sección About
+// Animación para sección About
 const timelineItems = document.querySelectorAll(".timeline-item");
 function showOnScroll() {
   timelineItems.forEach(item => {
@@ -26,7 +26,7 @@ function showOnScroll() {
 window.addEventListener("scroll", showOnScroll);
 showOnScroll();
 
-// 🎠 Carrusel de servicios con indicadores dinámicos y auto-slide
+// Carrusel de servicios con indicadores dinámicos y auto-slide
 const carousel = document.querySelector(".service-carousel");
 const prevBtn = document.querySelector(".carousel-btn.prev");
 const nextBtn = document.querySelector(".carousel-btn.next");
@@ -39,7 +39,7 @@ if (carousel && cards.length > 0) {
   let visibleCards;
   let totalSlides;
 
-  // 🌀 Crear o recalcular indicadores dinámicamente
+  // Crear o recalcular indicadores dinámicamente
   function generateIndicators() {
     visibleCards = window.innerWidth >= 768 ? 3 : 1;
     totalSlides = window.innerWidth >= 768
@@ -94,7 +94,7 @@ if (carousel && cards.length > 0) {
     }
   });
 
-  // 🔁 Auto-slide cada 4 segundos
+  // Auto-slide cada 4 segundos
   function startAutoSlide() {
     stopAutoSlide();
     autoSlide = setInterval(slideNext, 4000);
@@ -106,7 +106,7 @@ if (carousel && cards.length > 0) {
   carousel.addEventListener("mouseenter", stopAutoSlide);
   carousel.addEventListener("mouseleave", startAutoSlide);
 
-  // 🌀 Generar indicadores al cargar y recalcular al cambiar tamaño
+  // Generar indicadores al cargar y recalcular al cambiar tamaño
   generateIndicators();
   startAutoSlide();
 
@@ -116,7 +116,7 @@ if (carousel && cards.length > 0) {
   });
 }
 
-// 📬 Formulario + localStorage
+// Formulario + localStorage
 const form = document.querySelector(".contact__form");
 if (form) {
   form.addEventListener("submit", (e) => {
